@@ -24,7 +24,7 @@ SpringBoot： https://mvnrepository.com/artifact/org.springframework.boot/spring
 
 现有一个在线申请信用卡的业务场景，用户需要录入个人信息，如下图所示：
 
-![image-20200114163727767](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200114163727767.png)
+![image-20200114163727767](https://github.com/HappySnailSunshine/JavaInterview/blob/masthttps://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200114163727767.png)
 
 通过上图可以看到，用户录入的个人信息包括姓名、性别、年龄、学历、电话、所在公司、职位、月收入、是否有房、是否有车、是否有信用卡等。录入完成后点击申请按钮提交即可。
 
@@ -156,7 +156,7 @@ public Integer determineCreditCardLimit(User user){
 
 上面的申请信用卡业务场景使用规则引擎后效果如下：
 
-![4](../media/pictures/Drools.assets/4.png)
+![4](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/4.png)
 
 系统中引入规则引擎后，业务规则不再以程序代码的形式驻留在系统中，取而代之的是处理规则的规则引擎，业务规则存储在规则库中，完全独立于程序。业务人员可以像管理数据一样对业务规则进行管理，比如查询、添加、更新、统计、提交业务规则等。业务规则被加载到规则引擎中供应用系统调用。
 
@@ -210,7 +210,7 @@ drools源码下载地址：https://github.com/kiegroup/drools
 
 如果我们使用IDEA开发drools应用，IDEA中已经集成了drools插件。如果使用eclipse开发drools应用还需要单独安装drools插件。
 
-drools API开发步骤如下：![5](../media/pictures/Drools.assets/5.png)
+drools API开发步骤如下：![5](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/5.png)
 
 ## 3. Drools入门案例
 
@@ -406,7 +406,7 @@ drools规则引擎由以下三部分构成：
 
 如下图所示：
 
-![8](../media/pictures/Drools.assets/8.png)
+![8](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/8.png)
 
 #### 3.3.2 相关概念说明
 
@@ -424,17 +424,17 @@ drools规则引擎由以下三部分构成：
 
 #### 3.3.3 规则引擎执行过程
 
-![10](../media/pictures/Drools.assets/10.png)
+![10](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/10.png)
 
 #### 3.3.4 KIE介绍
 
 我们在操作Drools时经常使用的API以及它们之间的关系如下图：
 
-![9](../media/pictures/Drools.assets/9.png)
+![9](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/9.png)
 
 通过上面的核心API可以发现，大部分类名都是以Kie开头。**Kie全称为Knowledge Is Everything**，即"知识就是一切"的缩写，是Jboss一系列项目的总称。如下图所示，Kie的主要模块有OptaPlanner、Drools、UberFire、jBPM。
 
-![11](../media/pictures/Drools.assets/11.png)
+![11](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/11.png)
 
 通过上图可以看到，Drools是整个KIE项目中的一个组件，Drools中还包括一个Drools-WB的模块，它是一个可视化的规则编辑器。
 
@@ -2722,11 +2722,11 @@ slf4j-api-1.7.25.jar
 
 注意：这里我自己的是80端口，http://localhost/kie-drools-wb
 
-![12](../media/pictures/Drools.assets/12.png)
+![12](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/12.png)
 
 登录成功后进入系统首页：
 
-![13](../media/pictures/Drools.assets/13.png)
+![13](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/13.png)
 
 ### 8.3 使用方式
 
@@ -2738,21 +2738,21 @@ WorkBench中存在空间和项目的概念。我们在使用WorkBench时首先�
 
   第一步：登录WorkBench后进行系统首页，点击首页中的Design区域进入项目列表页面：
 
-  ![14](../media/pictures/Drools.assets/14.png)
+  ![14](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/14.png)
 
   如果是第一次登录还没有创建项目则无法看到项目
 
   第二步：点击左上角Spaces导航链接进入空间列表页面
 
-  ![15](../media/pictures/Drools.assets/15.png)
+  ![15](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/15.png)
 
   第三步：点击右上角Add Space按钮弹出创建添加空间窗口
 
-  ![16](../media/pictures/Drools.assets/16.png)
+  ![16](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/16.png)
 
   录入空间名称，点击Save按钮则完成空间的创建，如下图：
 
-  ![17](../media/pictures/Drools.assets/17.png)
+  ![17](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/17.png)
 
 - 创建项目
 
@@ -2760,21 +2760,21 @@ WorkBench中存在空间和项目的概念。我们在使用WorkBench时首先�
 
   第一步：点击itheima空间，进入此空间
 
-  ![18](../media/pictures/Drools.assets/18.png)
+  ![18](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/18.png)
 
   可以看到当前空间中还没有项目
 
   第二步：点击Add Project按钮弹出添加项目窗口
 
-  ![19](../media/pictures/Drools.assets/19.png)
+  ![19](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/19.png)
 
   第三步：在添加项目窗口中录入项目名称（例如项目名称为pro1），点击Add按钮完成操作
 
-  ![20](../media/pictures/Drools.assets/20.png)
+  ![20](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/20.png)
 
   可以看到在完成项目创建后，系统直接跳转到了项目页面。要查看当前itheima空间中的所有项目，可以点击左上角itheima链接：
 
-  ![21](../media/pictures/Drools.assets/21.png)
+  ![21](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/21.png)
 
 #### 8.3.2 创建数据对象
 
@@ -2782,73 +2782,73 @@ WorkBench中存在空间和项目的概念。我们在使用WorkBench时首先�
 
 第一步：在itheima空间中点击pro1项目，进入此项目页面
 
-![22](../media/pictures/Drools.assets/22.png)
+![22](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/22.png)
 
 第二步：点击Create New Asset按钮选择“数据对象”
 
-![23](../media/pictures/Drools.assets/23.png)
+![23](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/23.png)
 
 第三步：在弹出的创建数据对象窗口中输入数据对象的名称，点击确定按钮完成操作
 
-![24](../media/pictures/Drools.assets/24.png)
+![24](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/24.png)
 
 操作完成后可以看到如下：
 
-![25](../media/pictures/Drools.assets/25.png)
+![25](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/25.png)
 
 第四步：点击“添加字段”按钮弹出新建字段窗口
 
-![26](../media/pictures/Drools.assets/26.png)
+![26](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/26.png)
 
 第五步：在新建字段窗口中录入字段Id（其实就是属性名），选择类型，点击创建按钮完成操作
 
-![27](../media/pictures/Drools.assets/27.png)
+![27](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/27.png)
 
 完成操作后可以看到刚才创建的字段：
 
-![28](../media/pictures/Drools.assets/28.png)
+![28](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/28.png)
 
 可以点击添加字段按钮继续创建其他字段：
 
-![29](../media/pictures/Drools.assets/29.png)
+![29](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/29.png)
 
 注意添加完字段后需要点击右上角保存按钮完成保存操作：
 
-![32](../media/pictures/Drools.assets/32.png)
+![32](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/32.png)
 
 点击源代码按钮可以查看刚才创建的Person对象源码：
 
-![30](../media/pictures/Drools.assets/30.png)
+![30](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/30.png)
 
 点击左上角pro1项目链接，可以看到当前pro1项目中已经创建的各种类型的对象：
 
-![31](../media/pictures/Drools.assets/31.png)
+![31](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/31.png)
 
 #### 8.3.3 创建DRL规则文件
 
 第一步：在pro1项目页面点击右上角Create New Asset按钮，选择“DRL文件”，弹出创建DRL文件窗口
 
-![33](../media/pictures/Drools.assets/33.png)
+![33](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/33.png)
 
 第二步：在添加DRL文件窗口录入DRL文件名称，点击确定按钮完成操作
 
-![34](../media/pictures/Drools.assets/34.png)
+![34](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/34.png)
 
 第三步：上面点击确定按钮完成创建DRL文件后，页面会跳转到编辑DRL文件页面
 
-![35](../media/pictures/Drools.assets/35.png)
+![35](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/35.png)
 
 可以看到DRL规则文件页面分为两个部分：左侧为项目浏览视图、右侧为编辑区域，需要注意的是左侧默认展示的不是项目浏览视图，需要点击上面设置按钮，选择“资料库视图”和“显示为文件夹”，如下图所示：
 
-![36](../media/pictures/Drools.assets/36.png)
+![36](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/36.png)
 
 第四步：在编辑DRL文件页面右侧区域进行DRL文件的编写，点击右上角保存按钮完成保存操作，点击检验按钮进行规则文件语法检查
 
-![37](../media/pictures/Drools.assets/37.png)
+![37](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/37.png)
 
 点击左上角pro1项目回到项目页面，可以看到此项目下已经存在两个对象，即person.drl规则文件和Person类：
 
-![38](../media/pictures/Drools.assets/38.png)
+![38](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/38.png)
 
 #### 8.3.4 创建测试场景
 
@@ -2856,83 +2856,83 @@ WorkBench中存在空间和项目的概念。我们在使用WorkBench时首先�
 
 第一步：在项目页面点击Create New Asset按钮选择“测试场景”，弹出创建测试场景窗口
 
-![39](../media/pictures/Drools.assets/39.png)
+![39](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/39.png)
 
 第二步：在弹出的创建测试场景窗口中录入测试场景的名称，点击确定完成操作
 
-![40](../media/pictures/Drools.assets/40.png)
+![40](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/40.png)
 
 完成测试场景的创建后，页面会跳转到测试场景编辑页面，如下图：
 
-![41](../media/pictures/Drools.assets/41.png)
+![41](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/41.png)
 
 第三步：因为我们编写的规则文件中需要从工作内存中获取Person对象进行规则匹配，所以在测试场景中需要准备Person对象给工作内存，点击“GIVEN”按钮弹出新建数据录入窗口，选择Person类，输入框中输入事实名称（名称任意），如下图
 
-![42](../media/pictures/Drools.assets/42.png)
+![42](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/42.png)
 
 第四步：录入事实名称后点击后面的添加按钮，可以看到Person对象已经添加成功
 
-![43](../media/pictures/Drools.assets/43.png)
+![43](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/43.png)
 
 第五步：我们给工作内存提供的Person对象还需要设置age属性的值，点击“添加字段”按钮弹出窗口，选择age属性
 
-![44](../media/pictures/Drools.assets/44.png)
+![44](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/44.png)
 
 点击确定按钮后可以看到字段已经添加成功：
 
-![45](../media/pictures/Drools.assets/45.png)
+![45](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/45.png)
 
 第六步：点击age属性后面的编辑按钮，弹出字段值窗口
 
-![image-20200113154817582](../media/pictures/Drools.assets/image-20200113154817582.png)
+![image-20200113154817582](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113154817582.png)
 
 第七步：在弹出的窗口中点击字面值按钮，重新回到测试场景页面，可以看到age后面出现输入框，可以为age属性设置值
 
-![image-20200113155136957](../media/pictures/Drools.assets/image-20200113155136957.png)
+![image-20200113155136957](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113155136957.png)
 
 设置好age属性的值后点击保存按钮保存测试场景
 
 第八步：点击右上角“运行测试场景”按钮进行测试
 
-![image-20200113155332666](../media/pictures/Drools.assets/image-20200113155332666.png)
+![image-20200113155332666](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113155332666.png)
 
 测试成功后可以查看WorkBench部署的Tomcat控制台：
 
-![image-20200113155819517](../media/pictures/Drools.assets/image-20200113155819517.png)
+![image-20200113155819517](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113155819517.png)
 
 #### 8.3.5 设置KieBase和KieSession
 
 第一步：在pro1项目页面点击右上角Settings按钮进入设置页面
 
-![image-20200113162923877](../media/pictures/Drools.assets/image-20200113162923877.png)
+![image-20200113162923877](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113162923877.png)
 
 第二步：在设置页面选择“知识库和会话”选项
 
-![image-20200113163005061](../media/pictures/Drools.assets/image-20200113163005061.png)
+![image-20200113163005061](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113163005061.png)
 
 第三步：在弹出的知识库和会话页面点击“添加”按钮进行设置
 
-![image-20200113163313305](../media/pictures/Drools.assets/image-20200113163313305.png)
+![image-20200113163313305](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113163313305.png)
 
-![image-20200113163344174](../media/pictures/Drools.assets/image-20200113163344174.png)
+![image-20200113163344174](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113163344174.png)
 
 第四步：设置完成后点击右上角保存按钮完成设置操作，可以通过左侧浏览视图点击kmodule.xml，查看文件内容
 
 注意：出不来的话，要刷新一下。
 
-![image-20200113163539676](../media/pictures/Drools.assets/image-20200113163539676.png)
+![image-20200113163539676](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113163539676.png)
 
 #### 8.3.6 编译、构建、部署
 
 前面我们已经在WorkBench中创建了一个空间itheima，并且在此空间中创建了一个项目pro1，在此项目中创建了数据文件、规则文件和测试场景，如下图：
 
-![image-20200113160102668](../media/pictures/Drools.assets/image-20200113160102668.png)
+![image-20200113160102668](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113160102668.png)
 
 点击右上角“Compile”按钮可以对项目进行编译，点击“Bulid&Deploy”按钮进行构建和部署。
 
 部署成功后可以在本地maven仓库中看到当前项目已经被打成jar包：
 
-![image-20200113160728259](../media/pictures/Drools.assets/image-20200113160728259.png)
+![image-20200113160728259](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200113160728259.png)
 
 将上面的jar包进行解压，可以看到我们创建的数据对象Person和规则文件person以及kmodule.xml都已经打到jar包中了。
 
@@ -3062,7 +3062,7 @@ public void test1() throws Exception{
 
 本小节我们需要通过Drools规则引擎来根据规则计算个人所得税，最终页面效果如下：
 
-![image-20200214132448956](../media/pictures/Drools.assets/image-20200214132448956.png)
+![image-20200214132448956](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200214132448956.png)
 
 #### 9.1.1 名词解释
 
@@ -3592,7 +3592,7 @@ public class DroolsApplication {
 
 本小节我们需要通过Drools规则引擎来根据规则进行申请人的合法性检查，检查通过后再根据规则确定信用卡额度，最终页面效果如下：
 
-![image-20200214202525859](../media/pictures/Drools.assets/image-20200214202525859.png)
+![image-20200214202525859](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200214202525859.png)
 
 #### 9.2.1 计算规则
 
@@ -4156,7 +4156,7 @@ public class DroolsApplication {
 
 一个决策表的例子如下：
 
-![image-20200217160930138](../media/pictures/Drools.assets/image-20200217160930138.png)
+![image-20200217160930138](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200217160930138.png)
 
  
 
@@ -4231,7 +4231,7 @@ end
 
 通过下图可以发现，由于maven的依赖传递特性在导入drools-decisiontables坐标后，drools-core和drools-compiler等坐标也被传递了过来
 
-![image-20200218105819932](../media/pictures/Drools.assets/image-20200218105819932.png)
+![image-20200218105819932](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200218105819932.png)
 
  
 
@@ -4552,7 +4552,7 @@ public class InsuranceInfo {
 
 第四步：创建决策表文件（也可以直接使用实战资料中提供的insuranceInfoCheck.xls文件）
 
-![image-20200218120618384](../media/pictures/Drools.assets/image-20200218120618384.png)
+![image-20200218120618384](https://github.com/HappySnailSunshine/JavaInterview/blob/master/media/pictures/Drools.assets/image-20200218120618384.png)
 
 第五步：封装工具类KieSessionUtils
 
